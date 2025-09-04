@@ -1,0 +1,6 @@
+@GameProviderService_HostAddress = http://localhost:5119
+
+GET {{GameProviderService_HostAddress}}
+Accept: application/json
+
+###
