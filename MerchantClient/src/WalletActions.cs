@@ -8,7 +8,6 @@ namespace MerchantClient.src
         private const string PrivateKey = "otjc193!tNT";
         private const string BaseUrl = "https://localhost:7174/Funds";
 
-        // You can change retry count and delay here
         private readonly HttpHelper _httpHelper = new HttpHelper(maxRetries: 3, delayMilliseconds: 1000);
 
         public async Task CreatePlayerAsync(string partnerId, string externalId, string timeStamp)
